@@ -1,0 +1,24 @@
+{
+  "name": "jsonresume-theme-developpez",
+  "version": "0.1.0",
+  "description": "Developpez.com theme for JSON Resume",
+  "author": "Marc Loupias <pro@marc-loupias.fr>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcLoupias/jsonresume-theme-developpez"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "resume-cli": "https://github.com/jsonresume/resume-cli/"
+  },
+  "scripts": {
+    "test": "npx -p node@latest -- node node_modules/.bin/resume test",
+    "start": "npx -p node@latest -- node node_modules/.bin/resume serve --silent",
+    "build": "rm -rf dist && mkdir dist && npx -p node@latest -- node node_modules/.bin/resume export dist/index.html --format html"
+  }
+}
