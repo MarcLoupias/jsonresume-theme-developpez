@@ -1,8 +1,8 @@
-# Developpez.com theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-developpez.svg)](http://badge.fury.io/js/jsonresume-theme-developpez)
+# Thème [developpez.com](https://www.developpez.com/) pour les [JSON resume](https://github.com/jsonresume) [![npm version](https://badge.fury.io/js/jsonresume-theme-developpez.svg)](http://badge.fury.io/js/jsonresume-theme-developpez)
 
-Based on [Stack Overflow theme for jsonresume](https://github.com/francescoes/jsonresume-theme-stackoverflow) by Francesco Esposito.
+Basé sur le thème [Stack Overflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) de Francesco Esposito.
 
-**Printable version with custom CSS**
+**Ce thème n'est pas encore publié sur le registre npm**. La commande `npm install jsonresume-theme-developpez` n'aboutira donc à rien pour le moment.
 
 ## Démarrage rapide
 
@@ -25,7 +25,21 @@ Preview: http://localhost:4000
 Press ctrl-c to stop
 ```
 
+Le site est généré dans le répertoire `public/`.
+
+### Les données du CV
+
 Pour construire votre propre CV, créez un fichier `resume.json` à la racine du projet et suivez la structure du [schéma json](https://jsonresume.org/schema/).
+
+La commande `npm test` permet de valider le fichier `resume.json` avec le schéma json.
+
+### Génération du livrable
+
+```
+npm build
+```
+
+Génère le livrable dans le répertoire `dist/`.
 
 ### Icônes des réseaux sociaux
 
@@ -48,9 +62,9 @@ Exemple avec l'objet `location` :
 
 ```
 "location": {
-  "city": "Zürich",
-  "countryCode": "CH",
-  "region": "Switzerland"
+  "city": "Paris",
+  "countryCode": "FR",
+  "region": "France"
 } 
 ```
 
@@ -58,15 +72,17 @@ Exemple avec l'objet `birth` :
 
 ```
 "birth": {
-  "place": "New York",
-  "state": "USA",
+  "place": "Paris",
+  "state": "France",
   "date": "1988"
 }
 ```
 
 ### i18n
 
-Le thème d'origine a été modifié pour supporter le français (et uniquement le français, le thème d'origin ne supportant qu'une seule langue).
+Le thème d'origine a été modifié pour supporter le français (et uniquement le français, le thème d'origine ne supportant qu'une seule langue).
+
+*French resume*
 
 ## License
 
