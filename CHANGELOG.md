@@ -1,3 +1,9 @@
+#### 1.1.1 (2018-10-07)
+
+##### Bug Fixes
+
+* **release-process:**  config .idea/ n'est plus prise en compte dans le livrable ([ff5fb722](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/ff5fb7229e2a5334d9adca377fe5705dc0ebc292))
+
 ### 1.1.0 (2018-10-07)
 
 ##### Documentation Changes
