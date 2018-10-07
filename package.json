@@ -3,10 +3,30 @@
     "version": "1.0.0",
     "description": "Developpez.com theme for JSON Resume",
     "author": "Marc Loupias <pro@marc-loupias.fr>",
+    "keywords": [
+        "jsonresume",
+        "jsonresume-theme",
+        "theme",
+        "resume",
+        "cv",
+        "curriculum vitae",
+        "curriculum",
+        "json resume",
+        "jsonresume theme",
+        "theme"
+    ],
+    "engines": {
+        "node": ">=6.0.0",
+        "npm": ">=5.0.0"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/MarcLoupias/jsonresume-theme-developpez"
     },
+    "bugs": {
+        "url": "https://github.com/MarcLoupias/jsonresume-theme-developpez/issues"
+    },
+    "homepage": "https://github.com/MarcLoupias/jsonresume-theme-developpez",
     "license": "MIT",
     "main": "index.js",
     "dependencies": {
