@@ -1,25 +1,28 @@
 {
-  "name": "jsonresume-theme-developpez",
-  "version": "0.1.0",
-  "description": "Developpez.com theme for JSON Resume",
-  "author": "Marc Loupias <pro@marc-loupias.fr>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MarcLoupias/jsonresume-theme-developpez"
-  },
-  "license": "MIT",
-  "main": "index.js",
-  "dependencies": {
-    "handlebars": "^4.0.10",
-    "moment": "^2.18.1"
-  },
-  "devDependencies": {
-    "generate-changelog": "^1.7.1",
-    "resume-cli": "https://github.com/jsonresume/resume-cli/"
-  },
-  "scripts": {
-    "test": "npx -p node@latest -- node node_modules/.bin/resume test",
-    "start": "npx -p node@latest -- node node_modules/.bin/resume serve --silent",
-    "build": "rm -rf dist && mkdir dist && npx -p node@latest -- node node_modules/.bin/resume export dist/index.html --format html"
-  }
+    "name": "jsonresume-theme-developpez",
+    "version": "0.1.0",
+    "description": "Developpez.com theme for JSON Resume",
+    "author": "Marc Loupias <pro@marc-loupias.fr>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MarcLoupias/jsonresume-theme-developpez"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "dependencies": {
+        "handlebars": "^4.0.10",
+        "moment": "^2.18.1"
+    },
+    "devDependencies": {
+        "generate-changelog": "^1.7.1",
+        "resume-cli": "https://github.com/jsonresume/resume-cli/"
+    },
+    "scripts": {
+        "test": "npx -p node@latest -- node node_modules/.bin/resume test",
+        "start": "npx -p node@latest -- node node_modules/.bin/resume serve --silent",
+        "build": "rm -rf dist && mkdir dist && npx -p node@latest -- node node_modules/.bin/resume export dist/index.html --format html",
+        "release:major": "./node_modules/generate-changelog/bin/generate -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+        "release:minor": "./node_modules/generate-changelog/bin/generate -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+        "release:patch": "./node_modules/generate-changelog/bin/generate -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+    }
 }
