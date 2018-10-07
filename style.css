@@ -140,7 +140,7 @@ body,
 html {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
-    color: #40484f;
+    color: #000000;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.46153846;
@@ -153,13 +153,9 @@ p {
     margin-bottom: 1.3em;
 }
 
-a {
-    color: #0095ff;
-    text-decoration: none;
-}
-
+a,
 a:hover {
-    color: #0c65a5;
+    color: #3788b6;
     text-decoration: underline;
 }
 
@@ -273,7 +269,11 @@ section .location {
 }
 
 .main-summary {
-    background: #f1f8ff;
+    background: linear-gradient(to bottom, #dfeaf4 0%, #c4d3db 100%);
+    border-width: 1px 1px 1px 1px;
+    border-color: #5a7f97;
+    border-style: solid;
+    border-radius: 0.25em;
     padding: 1.2em 1em;
     margin-top: 1rem;
 }
@@ -286,7 +286,7 @@ h2.section-title {
     display: inline-block;
     background: #fff;
     padding: 0 1em 0.3em 0;
-    color: #ff6d1f;
+    color: #417394;
     text-transform: uppercase;
     font-weight: 600;
     border: none;
@@ -392,20 +392,25 @@ ul.courses li {
     font-size: .9rem;
     line-height: 1;
     text-transform: lowercase;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
+    color: #ffffff;
+    background-color: #5bc0de;
+    border: 0 solid #5bc0de;
+    border-radius: 0.25em;
     white-space: nowrap;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 ul.keywords li:hover,
 ul.courses li:hover {
-    background: #dfeaf0;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s linear;
+    text-decoration: none;
 }
 
 .item {
     overflow: hidden;
-    padding: .5em 0;
+    padding: .5em;
 }
 
 .gpa {
@@ -505,7 +510,6 @@ ul.courses li:hover {
 #skills .item,
 #interests .item {
     width: 15em;
-    padding: 0 .5em .5em 0;
     border-bottom: none;
 }
 
@@ -565,7 +569,7 @@ ul.courses li:hover {
 
 #references .item {
     padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
+    border-left: 5px solid #417394;
 }
 
 .toggle-item {
