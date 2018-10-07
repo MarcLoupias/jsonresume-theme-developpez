@@ -1,3 +1,19 @@
+### 1.1.0 (2018-10-07)
+
+##### Documentation Changes
+
+* **markdown:**  clarification des instructions d'usage et de contribution. Suppression du script build qui etait inutile. ([a291c8fe](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/a291c8fe302c72c2fa36ece0c624b5bffb000c72))
+* **package.json:**  infos manquantes ([8e95d755](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/8e95d7552a5ff121ec6969a13c527024cbe315cd))
+
+##### New Features
+
+* **SEO:**  la propriete label de basics est utilisee pour valoriser la balise meta description ([a9e12f8c](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/a9e12f8c3ede3052c3ce0d1bd9ee92faee5117fb))
+
+##### Bug Fixes
+
+* **release-process:**  fix des scripts de release ([71f5ceb5](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/71f5ceb502d93f47d4664df96ca13bb81538c69b))
+* **i18n:**  traductions manquantes sur les dates et la section projects ([0a120768](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/0a120768b989ad04fdc64ef2fe765cbd2ae9677b))
+
 ## 1.0.0 (2018-10-07)
 
 ##### Documentation Changes
