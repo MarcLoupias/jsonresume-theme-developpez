@@ -1,0 +1,252 @@
+{
+    "basics": {
+        "name": "Robert Duchmoul",
+        "gender": "M",
+        "birth": {
+            "place": "Paris",
+            "state": "France",
+            "date": "1988"
+        },
+        "label": "Consultant Développeur",
+        "picture": "",
+        "email": "robert.duchmoul@domain.tld",
+        "phone": "01 02 03 04 05",
+        "website": "http://robert-duchmoul.fr",
+        "summary": "Robert est né à Paris. Il a obtenu un diplôme de développeur à l'université de Paris. Avant de commencer chez Pognon Consulting, il a travaillé chez Oseille Consulting. Alors que son travail se concentre à appliquer la théorie de l'information, blablabla technique et blablabla technique et blablabla technique, il met également en oeuvre la théorie de la prestation. Il pourrait vous en parler mais ça durerait des plombes !",
+        "location": {
+            "address": "1 rue du TJM",
+            "postalCode": "75001",
+            "city": "Paris",
+            "countryCode": "FR",
+            "region": "France"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "bebert75",
+                "url": ""
+            },
+            {
+                "network": "SoundCloud",
+                "username": "dudu01",
+                "url": "https://soundcloud.com/dudu01"
+            },
+            {
+                "network": "GitHub",
+                "username": "romoul",
+                "url": "https://github.com/romoul"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Pognon Consulting",
+            "position": "Consultant",
+            "website": "http://pognon-consulting.com",
+            "startDate": "2000-01-01",
+            "endDate": "2014-12-31",
+            "summary": "Pognon Consulting n'est pas une SS2I, c'est une ESN. Blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla.",
+            "highlights": [
+                "Blablabla et blablabla et blablabla et blablabla et blablabla",
+                "Blablabla et blablabla et blablabla",
+                "Blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla"
+            ],
+            "keywords": [
+                "blablabla",
+                "bliblibliblibli"
+            ],
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            }
+        },
+        {
+            "company": "Oseille Consulting",
+            "position": "Consultant",
+            "website": "http://oseille-consulting.com",
+            "startDate": "2015-01-01",
+            "summary": "Oseille Consulting n'est pas une SS2I, c'est une ESN. Blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla.",
+            "highlights": [
+                "Blablabla et blablabla et blablabla et blablabla et blablabla",
+                "Blablabla et blablabla et blablabla",
+                "Blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla"
+            ],
+            "keywords": [
+                "blablabla",
+                "bliblibliblibli"
+            ],
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            }
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "CoderDojo",
+            "position": "Sensei",
+            "website": "http://coderdojo.com/",
+            "startDate": "2013-01-02",
+            "summary": "Aime bien coacher et faire apprendre des trucs aux gens ...",
+            "highlights": [
+                "Récompensé 'Coach du mois'"
+            ],
+            "keywords": [
+                "blablabla",
+                "bliblibliblibli"
+            ],
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            }
+        },
+        {
+            "organization": "PierPom",
+            "position": "Grouillot",
+            "website": "http://pierpom.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Pin pon pin !",
+            "highlights": [
+                "Récompensé 'Pierpom du mois'"
+            ],
+            "keywords": [
+                "blablabla",
+                "bliblibliblibli"
+            ],
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            }
+        }
+    ],
+    "education": [
+        {
+            "institution": "Université de Paris",
+            "area": "NTIC (comme on dit depuis 20 ans)",
+            "studyType": "BAC+5",
+            "startDate": "2002-06-01",
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            },
+            "gpa": "4.0",
+            "courses": [
+                "DB1101 - SQL",
+                "CS2011 - Introduction à Java"
+            ],
+            "summary": "Les études c'était bien et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla."
+        },
+        {
+            "institution": "Université de Paris",
+            "area": "NTIC (comme on dit depuis 20 ans)",
+            "studyType": "BAC+5",
+            "startDate": "2002-06-01",
+            "endDate": "2005-01-01",
+            "location": {
+                "city": "Paris",
+                "countryCode": "FR",
+                "region": "France"
+            },
+            "gpa": "4.0",
+            "courses": [
+                "DB1101 - SQL",
+                "CS2011 - Introduction à Java"
+            ],
+            "summary": "Les études c'était bien et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla et blablabla."
+        }
+    ],
+    "awards": [
+        {
+            "title": "Employé de l'année",
+            "date": "2014-11-01",
+            "awarder": "Pognon Consulting"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Un job pour la vie : Code inmaintenable.",
+            "publisher": "Droogans",
+            "releaseDate": "2014-10-01",
+            "website": "https://github.com/Droogans/unmaintainable-code",
+            "summary": "Ne jamais attribuer à la malveillance ce que la bêtise suffit à expliquer. - Napoléon",
+            "keywords": [
+                "blablabla",
+                "bliblibliblibli"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "beginner",
+            "levelDisplay": "Débutant",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "Compression",
+            "level": "intermediate",
+            "levelDisplay": "Intermédiaire",
+            "keywords": [
+                "Mpeg",
+                "MP4",
+                "GIF"
+            ]
+        },
+        {
+            "name": "Network",
+            "level": "advanced",
+            "levelDisplay": "Confirmé",
+            "keywords": [
+                "TCP",
+                "UDP",
+                "IP"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "Master",
+            "levelDisplay": "Maîtrise",
+            "keywords": [
+                "CI/CD",
+                "git",
+                "Docker",
+                "Kubernetes",
+                "Ansible",
+                "Puppet"
+            ]
+        }
+    ],
+    "languages": [
+        { "language": "Kligon", "fluency": "beginner", "fluencyDisplay": "Débutant" },
+        { "language": "Eldarin", "fluency": "intermediate", "fluencyDisplay": "Intermédiaire" },
+        { "language": "Anglais", "fluency": "fluent", "fluencyDisplay": "Fluide" },
+        { "language": "Français", "fluency": "Native speaker", "fluencyDisplay": "Langue natale" }
+    ],
+    "interests": [
+        {
+            "name": "Cinéma",
+            "keywords": [
+                "Stalone",
+                "Schwarzeneger"
+            ],
+            "summary": "J'aime quand ça tabasse et bimbamboum et bimbamboum et bimbamboum et bimbamboum et bimbamboum et bimbamboum et bimbamboum."
+        }
+    ],
+    "references": [
+        {
+            "name": "Clodomir Bourrin",
+            "reference": "C'est un plaisir de recommander Robert, il a de bons goûts cinématographiques et y crache pas sur l'apéro le midi et blabla et blabla et blabla. Un grand consultant."
+        }
+    ]
+}

@@ -2,9 +2,29 @@
 
 Basé sur le thème [Stack Overflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) de Francesco Esposito.
 
-**Ce thème n'est pas encore publié sur le registre npm**. La commande `npm install jsonresume-theme-developpez` n'aboutira donc à rien pour le moment.
+## Usage
 
-## Démarrage rapide
+Ce thème est à utiliser dans votre propre projet de création de CV en tant que dépendance de développement conjointement avec le [CLI de jsonresume](https://github.com/jsonresume/resume-cli).
+
+```
+$ npm i -D jsonresume-theme-developpez
+```
+
+### installation du CLI
+
+**Important**
+
+A l'octobre 2018, le CLI du projet [jsonresume](https://github.com/jsonresume) n'est plus maintenu très sérieusement, les dernières versions publiées sur le registre npm présentent des dysfonctionnements importants.
+
+La branche `master` est en revanche fonctionnelle, la bonne méthode d'installation (en attendant un fix officiel) est donc :
+
+```
+$ npm i -D https://github.com/jsonresume/resume-cli/
+```
+
+Et non `$ npm i -D resume-cli`.
+
+## Contribuer
 
 ### Installation
 
@@ -13,6 +33,8 @@ $ npm install
 ```
 
 ### Serveur de développement
+
+Il s'agit ici de développer ce thème et non votre propre CV.
 
 ```
 npm start
@@ -25,21 +47,15 @@ Preview: http://localhost:4000
 Press ctrl-c to stop
 ```
 
-Le site est généré dans le répertoire `public/`.
+Le site est généré dans le répertoire `public/` lors du premier accès via votre navigateur.
 
 ### Les données du CV
 
-Pour construire votre propre CV, créez un fichier `resume.json` à la racine du projet et suivez la structure du [schéma json](https://jsonresume.org/schema/).
+Un fichier `resume.json` est situé à la racine du projet. Il respecte la structure du [schéma json](https://jsonresume.org/schema/).
 
 La commande `npm test` permet de valider le fichier `resume.json` avec le schéma json.
 
-### Génération du livrable
-
-```
-npm build
-```
-
-Génère le livrable dans le répertoire `dist/`.
+Ce fichier est présent à des fins de tests et de développement, il n'est présent que dans le repository et pas dans le livrable du registre npm.
 
 ### Icônes des réseaux sociaux
 
