@@ -1,17 +1,13 @@
 {{#if resume.projects.length}}
 <section class="section">
     <header>
-        <h2 class='section-title'>Projects <span class="item-count">({{resume.projects.length}})</span></h2>
+        <h2 class='section-title'>Projets <span class="item-count">({{resume.projects.length}})</span></h2>
     </header>
     <section id="projects">
         {{#each resume.projects}}
             <section class="project-item">
             {{#if summary}}
-                {{#if @first}}
-                <input id="project-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked"/>
-                {{else}}
-                <input id="project-item-{{@index}}" type="checkbox" class="toggle-item"/>
-                {{/if}}
+            <input id="project-item-{{@index}}" type="checkbox" class="toggle-item"/>
             <label for="project-item-{{@index}}"></label>
             {{/if}}
 
@@ -24,9 +20,9 @@
                 <div class="date">
                     <span class="startDate">{{MY startDate}}</span>
                     {{#if endDate}}
-                    <span class="endDate">- {{MY endDate}}</span>
+                    <span class="endDate"> à {{MY endDate}}</span>
                     {{else}}
-                    <span class="endDate">- Current</span>
+                    <span class="endDate"> à aujourd'hui</span>
                     {{/if}}
                 </div>
                 {{/if}}
