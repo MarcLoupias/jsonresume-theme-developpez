@@ -19,10 +19,12 @@ A l'octobre 2018, le CLI du projet [jsonresume](https://github.com/jsonresume) n
 La branche `master` est en revanche fonctionnelle, la bonne méthode d'installation (en attendant un fix officiel) est donc :
 
 ```
-$ npm i -D https://github.com/jsonresume/resume-cli/
+$ npm i -D https://github.com/jsonresume/resume-cli/#5aaf9b8d610e8b4a1e259048e3c58d2630a60da3
 ```
 
 Et non `$ npm i -D resume-cli`.
+
+La dernière version publiée sur le registre npm ([`1.0.1`](https://www.npmjs.com/package/resume-cli/v/1.0.1)) est fonctionnelle mais elle désactive l'export PDF qui fonctionnait pourtant bien.
 
 ## Contribuer
 
