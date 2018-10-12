@@ -1,3 +1,14 @@
+#### 1.1.2 (2018-10-12)
+
+##### Documentation Changes
+
+* **markdown:**  maj des infos ([e1bd1484](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/e1bd1484a49f7766c0d24b7e588ddc2100bb4eb8))
+
+##### Bug Fixes
+
+* **devDependencies:**  resume-cli - on tirait master mais il faut un commit specifique ([e2b0ab4c](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/e2b0ab4c3ae6a4b3651bc394e8f24f5e1a3ba942))
+* **release-process:**  retrait du push sur les scripts de release ([f62008a6](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/f62008a60f044b3882148473c18b353b564f98a9))
+
 #### 1.1.1 (2018-10-07)
 
 ##### Bug Fixes
