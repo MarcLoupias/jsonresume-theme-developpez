@@ -35,7 +35,7 @@
     },
     "devDependencies": {
         "generate-changelog": "^1.7.1",
-        "resume-cli": "https://github.com/jsonresume/resume-cli/#5aaf9b8d610e8b4a1e259048e3c58d2630a60da3"
+        "resume-cli": "1.1.1"
     },
     "scripts": {
         "test": "npx -p node@latest -- node node_modules/.bin/resume test",
