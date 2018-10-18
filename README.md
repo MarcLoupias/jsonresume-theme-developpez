@@ -1,50 +1,56 @@
 # Thème [developpez.com](https://www.developpez.com/) pour les [JSON resume](https://github.com/jsonresume) [![npm version](https://badge.fury.io/js/jsonresume-theme-developpez.svg)](http://badge.fury.io/js/jsonresume-theme-developpez)
 
+## Sources
+
 Basé sur le thème [Stack Overflow](https://github.com/francescoes/jsonresume-theme-stackoverflow) de Francesco Esposito.
+
+## Exemple
+
+Mon CV personnel utilise ce thème. Il est consultable sur [cv.marc-loupias.fr](http://cv.marc-loupias.fr/).
 
 ## Usage
 
 Ce thème est à utiliser dans votre propre projet de création de CV en tant que dépendance de développement conjointement avec le [CLI de jsonresume](https://github.com/jsonresume/resume-cli).
 
-```
-$ npm i -D jsonresume-theme-developpez
+```bash
+npm i -D jsonresume-theme-developpez
 ```
 
 ### installation du CLI
 
-**Important**
+**Important**, on parle ici de l'installation du CLI dans votre projet de création de CV, pas pour contribuer à ce thème.
 
-A l'octobre 2018, le CLI du projet [jsonresume](https://github.com/jsonresume) n'est plus maintenu très sérieusement, les dernières versions publiées sur le registre npm présentent des dysfonctionnements importants.
+Le CLI du projet [jsonresume](https://github.com/jsonresume) est utilisé en version `1.1.1`.
+ 
+Le mainteneur du CLI n'a pas tag cette version dans le repository de [jsonresume](https://github.com/jsonresume) mais le livrable correspondant est disponible [sur le registre npm](https://www.npmjs.com/package/resume-cli/v/1.1.1). 
 
-La branche `master` est en revanche fonctionnelle, la bonne méthode d'installation (en attendant un fix officiel) est donc :
+La bonne méthode d'installation du CLI re-devient donc normale :
 
+```bash
+npm i -D resume-cli
 ```
-$ npm i -D https://github.com/jsonresume/resume-cli/#5aaf9b8d610e8b4a1e259048e3c58d2630a60da3
-```
 
-Et non `$ npm i -D resume-cli`.
-
-La dernière version publiée sur le registre npm ([`1.0.1`](https://www.npmjs.com/package/resume-cli/v/1.0.1)) est fonctionnelle mais elle désactive l'export PDF qui fonctionnait pourtant bien.
+L'export PDF est actif dans cette version via par exemple `npx -p node@latest -- node node_modules/.bin/resume export cv.pdf --format pdf --theme developpez`.
 
 ## Contribuer
 
 ### Installation
 
-```
-$ npm install
+```bash
+npm install
 ```
 
 ### Serveur de développement
 
 Il s'agit ici de développer ce thème et non votre propre CV.
 
-```
+```bash
 npm start
 ```
 
 Vous devriez voir ce message :
 
-```
+```bash
 Preview: http://localhost:4000
 Press ctrl-c to stop
 ```
@@ -78,7 +84,7 @@ Les ajouts du [jsonresume-theme-stackoverflow](https://github.com/francescoes/js
 
 Exemple avec l'objet `location` : 
 
-```
+```json
 "location": {
   "city": "Paris",
   "countryCode": "FR",
@@ -88,7 +94,7 @@ Exemple avec l'objet `location` :
 
 Exemple avec l'objet `birth` :
 
-```
+```json
 "birth": {
   "place": "Paris",
   "state": "France",
