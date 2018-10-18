@@ -1,3 +1,13 @@
+#### 1.1.3 (2018-10-18)
+
+##### Documentation Changes
+
+* **markdown:**  maj des infos + lien demo ([ded2cf26](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/ded2cf2657ea8ea08ae18e7dbaa5469abb61edb1))
+
+##### Bug Fixes
+
+* **devDependencies:**  resume-cli - une version 1.1.1 fonctionnelle a ete publiee ([a66266d1](https://github.com/MarcLoupias/jsonresume-theme-developpez/commit/a66266d14f642ddc86fec6f54a5a12a2a8f3be5d))
+
 #### 1.1.2 (2018-10-12)
 
 ##### Documentation Changes
